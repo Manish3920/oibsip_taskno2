@@ -1,0 +1,240 @@
+body{
+    font-family:"Poppins" ;
+}
+section{
+   background-color: rgb(248, 248, 246);
+    
+   
+}
+
+.hero{
+    background-color:rgb(22, 10, 34);
+    color: rgb(251, 249, 255);
+    font-size: 40px;
+   }
+
+
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li{
+    
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+h1{
+    font-size: 75px;
+    margin: 0;
+
+}
+h4{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+p{
+    
+    font-weight: 300;
+    font-size: 25px;
+}
+.fd{
+    margin-left: 180px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.hero-text{
+    margin-top: 100px;
+            
+            
+}
+
+.hero-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.social{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+
+.button{
+    margin-left: 220px;
+    margin-top: 50px;
+   font-size: 18px;
+   font-weight: bold;
+   background: #dbbb06;
+   width: 160px;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer ;
+   box-shadow: 0 0 20px rgba(252, 247, 247, 0.1);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow,transform;
+   transition-property: boxshadow, transform;
+
+}
+.button:hover, .button:focus,.button:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width : 1000px){
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+}
+    
+.logo{
+    height: 75px;
+    margin-left: 5px;
+}
+
+.t{margin-right: 40px;
+    
+}
+.g{
+    margin-left: 40px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container{
+    align-items: center;
+    display: flex;
+}
+
+.project-card{
+    width: 200px;
+    height: 390px;
+    box-shadow: 5px 5px 20px rgb(156, 153, 153);
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 88px;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+hr{
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.project-image{
+    margin-top: 10px;
+    width: 170px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(253, 247, 247);
+    height: 400px;
+    
+    
+
+}
+
+form{
+    width: 98%;
+    max-width: 600px;
+    margin: 400px;
+    
+    
+}
+
+.input-group{
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+}
+input, textarea{
+    width: 500px;
+    padding: 8px;
+    outline: 0;
+    border: 1px solid rgb(19, 19, 19);
+    box-shadow: black;
+    color: rgb(12, 11, 11);
+    background:transparent;
+    font-size: 15px;
+
+}
+label{
+    height:500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color:black;
+    cursor: text;
+    transition: 0.2s;
+
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+text:valid~label{
+    top: -35px;
+    font-size: 14px;
+
+}
